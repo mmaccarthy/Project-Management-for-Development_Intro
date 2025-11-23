@@ -12,3 +12,10 @@
             <xsd:documentation>Refers to universal  XML 1.0 lang attribute</xsd:documentation>
         </xsd:annotation>
     </xsd:attribute>
+ <xsd:attribute name="base" type="xsd:string">
+        <xsd:annotation>
+            <xsd:documentation>Refers to XML Base: http://www.w3.org/TR/xmlbase</xsd:documentation>
+        </xsd:annotation>
+    </xsd:attribute>
+    <xsd:attribute name="link" type="xsd:string" />
+</xsd:schema>
