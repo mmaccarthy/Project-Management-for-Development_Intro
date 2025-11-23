@@ -1,1 +1,14 @@
+<?xml version="1.0"?>
+
+<!-- edited with XML Spy v3.5 (http://www.xmlspy.com) by Thomas Wason (private) -->
+<!-- filename=ims_cp_rootv1p1p2.xsd -->
+<!-- Copyright (2) 2001 IMS Global Learning Consortium, Inc. -->
+<!-- edited by Thomas Wason  -->
+<!-- Conforms to w3c http://www.w3.org/TR/xmlschema-1/ 2000-10-24-->
+
+<xsd:schema xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" 
+            targetNamespace="http://www.imsproject.org/xsd/imscp_rootv1p1p2" 
+            xmlns:xml="http://www.w3.org/XML/1998/namespace" 
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+            elementFormDefault="unqualified" version="IMS CP 1.1.2">
 
