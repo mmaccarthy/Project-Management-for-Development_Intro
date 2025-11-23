@@ -14,7 +14,7 @@
             max-width: 1200px;
             margin: 0 auto;
             background: white;
-            padding: 20px;
+            padding: 30px;
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
             height: calc(100vh - 80px);
@@ -27,15 +27,40 @@
         }
         h1 {
             color: #333;
+            margin-bottom: 15px;
+            font-size: 28px;
+        }
+        .description {
+            color: #666;
             margin-bottom: 20px;
-            font-size: 24px;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Introduction to Project Management in the Development Sector</h1>
-        <iframe src="./scorm-content.html"></iframe>
+        <p class="description">This interactive training will guide you through essential project management concepts. The content will load automatically below.</p>
+        <iframe src="./scorm-content.html" onload="this.style.opacity=1" style="opacity:0; transition: opacity 0.5s;"></iframe>
+        <div class="loading" id="loading">Loading your training content...</div>
     </div>
+    
+    <script>
+        // Hide loading message when iframe loads
+        document.querySelector('iframe').onload = function() {
+            document.getElementById('loading').style.display = 'none';
+        };
+        
+        // Show loading message if iframe takes time
+        setTimeout(function() {
+            document.getElementById('loading').style.display = 'none';
+        }, 3000);
+    </script>
 </body>
 </html>
