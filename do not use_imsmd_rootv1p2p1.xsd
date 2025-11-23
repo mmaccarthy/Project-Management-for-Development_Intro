@@ -1,1 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited by Thomas Wason  -->
+<xsd:schema targetNamespace="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" 
+            xmlns:xml="http://www.w3.org/XML/1998/namespace" 
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+            xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" 
+            elementFormDefault="qualified" 
+            version="1.2:1.1 IMS:MD1.2">
+
+   <xsd:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="ims_xml.xsd"/> 
 
